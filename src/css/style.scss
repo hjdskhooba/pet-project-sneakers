@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  transition: 0.3s;
+}
+.container {
+  max-width: 1050px;
+  padding: 0 45px;
+  margin: 0 auto;
+}
+$int: 'inter', sans-serif;
+
+@mixin text($ff, $fs, $fw, $fz, $lh, $col) {
+  font-family: $ff;
+  font-style: $fs;
+  font-weight: $fw;
+  font-size: $fz;
+  @if $lh > 0 {
+    line-height: $lh;
+  }
+  color: $col;
+}
+body,
+.floor {
+  background-color: #fff;
+}
+@import '_header.scss';
+@import '_main.scss';
+@import '_assort.scss';
+@import '_basketPopup.scss';
+@import '_card.scss';
+@import '_basket.scss';
+@import '_favorites.scss';
+@import '_basketNone.scss';
+@import '_register';

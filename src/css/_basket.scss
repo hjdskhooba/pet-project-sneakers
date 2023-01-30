@@ -1,0 +1,30 @@
+.basket__main{
+  &-topContent{
+    padding: 42px 0 40px;
+    &-nav{
+      display: flex;
+      align-items: center;
+      gap: 21px;
+    }
+    &-title{
+      @include text($int, normal, 700, 32px, 0, black)
+    }
+    &-link{
+      padding: 8px 14px;
+      max-width: 35px;
+      max-height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #F2F2F2;
+      border-radius: 8px;
+    }
+  }
+  &-mainContent{
+    &-assort{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+  }
+}

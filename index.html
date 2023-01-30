@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sneakers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="floor">
+      <header class="header">
+        <div class="container">
+          <nav class="header__nav">
+            <div class="header__logo">
+              <img
+                src="./src/images/mainLogo.png"
+                alt="Logo"
+                class="header__logo-img"
+              />
+              <div class="header__logo-text">
+                <h1 class="header__logo-title">
+                  <a href="index.html" class="header__logo-title-link"
+                    >react sneakers</a
+                  >
+                </h1>
+                <p class="header__logo-subtitle">
+                  <a href="index.html" class="header__logo-subtitle"
+                    >Магазин лучших кроссовок</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="header__links">
+              <p class="header__links-basket">
+                <span class="header__links-basket-logo"
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.54548 18.1818C7.99735 18.1818 8.36366 17.8155 8.36366 17.3636C8.36366 16.9118 7.99735 16.5455 7.54548 16.5455C7.09361 16.5455 6.72729 16.9118 6.72729 17.3636C6.72729 17.8155 7.09361 18.1818 7.54548 18.1818Z"
+                      stroke="#9B9B9B"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16.5455 18.1818C16.9973 18.1818 17.3637 17.8155 17.3637 17.3636C17.3637 16.9118 16.9973 16.5455 16.5455 16.5455C16.0936 16.5455 15.7273 16.9118 15.7273 17.3636C15.7273 17.8155 16.0936 18.1818 16.5455 18.1818Z"
+                      stroke="#9B9B9B"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M1 1H4.27273L6.46545 11.9555C6.54027 12.3321 6.7452 12.6705 7.04436 12.9113C7.34351 13.1522 7.71784 13.2801 8.10182 13.2727H16.0545C16.4385 13.2801 16.8129 13.1522 17.112 12.9113C17.4112 12.6705 17.6161 12.3321 17.6909 11.9555L19 5.09091H5.09091"
+                      stroke="#9B9B9B"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                $<span class="total">0</span>
+              </p>
+              <a
+                href="./src/pages/favorites.html"
+                class="header__links-favorites"
+                ><span class="header__links-favorites-logo"
+                  ><svg
+                    width="21"
+                    height="19"
+                    viewBox="0 0 21 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.1003 0C16.7293 0 18.0976 0.54932 19.2052 1.64796C20.3129 2.7466 20.8668 4.08759 20.8668 5.67092C20.8668 6.44643 20.7039 7.23002 20.3781 8.02169C20.0523 8.81335 19.6939 9.51616 19.303 10.1301C18.912 10.744 18.2523 11.5357 17.3238 12.5051C16.3953 13.4745 15.6134 14.2581 14.9781 14.8559C14.3428 15.4537 13.3248 16.3665 11.9239 17.5944L10.4089 18.9515L8.89403 17.6429C7.52572 16.3827 6.51577 15.4537 5.8642 14.8559C5.21262 14.2581 4.42258 13.4745 3.49408 12.5051C2.56559 11.5357 1.90586 10.744 1.51492 10.1301C1.12397 9.51616 0.773748 8.81335 0.464249 8.02169C0.15475 7.23002 0 6.44643 0 5.67092C0 4.08759 0.553841 2.7466 1.66152 1.64796C2.7692 0.54932 4.12123 0 5.71759 0C7.60717 0 9.17095 0.727041 10.4089 2.18112C11.6469 0.727041 13.2107 0 15.1003 0ZM10.5067 16.0918C12.1031 14.6701 13.2677 13.6118 14.0008 12.9171C14.7338 12.2224 15.5401 11.3903 16.4198 10.4209C17.2994 9.45153 17.9102 8.60332 18.2523 7.87628C18.5944 7.14924 18.7654 6.41412 18.7654 5.67092C18.7654 4.63691 18.4152 3.78061 17.7148 3.10204C17.0143 2.42347 16.1428 2.08418 15.1003 2.08418C14.3184 2.08418 13.5772 2.31037 12.8768 2.76276C12.1764 3.21514 11.6795 3.79677 11.3863 4.50765H9.43158C9.17095 3.79677 8.69041 3.21514 7.98997 2.76276C7.28952 2.31037 6.53206 2.08418 5.71759 2.08418C4.67507 2.08418 3.81173 2.42347 3.12757 3.10204C2.44342 3.78061 2.10134 4.63691 2.10134 5.67092C2.10134 6.41412 2.26423 7.14924 2.59002 7.87628C2.91581 8.60332 3.52666 9.45153 4.42258 10.4209C5.3185 11.3903 6.13297 12.2224 6.866 12.9171C7.59902 13.6118 8.74743 14.6701 10.3112 16.0918L10.4089 16.1888L10.5067 16.0918Z"
+                      fill="#9B9B9B"
+                    />
+                  </svg> </span
+              ></a>
+             <!-- admin -->
+              <p class="header__links-user">
+                <a href="./src/pages/register.html">Войти</a>
+              </p>
+            </div>
+          </nav>
+        </div>
+      </header>
+<!-- --------------------------------------------------BASKET-------------------------------------------------- -->
+      <aside class="basket">
+        <div class="basket__content">
+          <div>
+            <h2 class="basket__title">Корзина</h2>
+            <div class="basket__cards">
+            </div>
+          </div>
+          <div class="basket__bottom">
+            <div class="basket__text">
+              <p class="basket__text-desc">Итого:</p>
+              <p class="basket__text-sum">$<span class="total">0</span></p>
+            </div>
+            <div class="basket__text">
+              <p class="basket__text-desc">Комиссия 5%:</p>
+              <p class="basket__text-sum" style="display: flex;">$<span class="percent" style="display: flex; max-width: 31.4px;">0</span></p>
+            </div>
+            <button class="basket__btn"><a href="./src/pages/orders.html">Оформить заказ</a></button>
+          </div>
+        </div>
+      </aside>
+<!-- --------------------------------------------------BASKET-------------------------------------------------- -->
+      <main class="main">
+        <section class="main__swipe">
+          <div class="container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="main__swipe-block">
+                    <div class="main__swipe-box">
+                      <div class="main__swipe-box-text">
+                        <div class="main__swipe-box-partners">
+                          <img
+                            src="./src/images/swiper/partners.png"
+                            alt="Our Partners"
+                            class="main__swipe-box-partners-logo"
+                          />
+                        </div>
+                        <p class="main__swipe-box-desc">
+                          Stan Smith, <br />
+                          <span class="main__swipe-box-desc-black"
+                            >Forever!</span
+                          >
+                        </p>
+                        <a href="./src/pages/orders.html" class="main__swipe-box-btn">купить</a>
+                      </div>
+                    </div>
+                    <div class="main__swipe-box main__swipe-box-scn">
+                      <div class="main__swipe-box-imgs">
+                        <img
+                          src="src/images/swiper/swipeImg.png"
+                          alt="Swipe Image"
+                          class="main__swipe-box-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main__swipe-block">
+                    <div class="main__swipe-box">
+                      <div class="main__swipe-box-text">
+                        <div class="main__swipe-box-partners">
+                          <img
+                            src="./src/images/swiper/partners.png"
+                            alt="Our Partners"
+                            class="main__swipe-box-partners-logo"
+                          />
+                        </div>
+                        <p class="main__swipe-box-desc">
+                          Stan Smith, <br />
+                          <span class="main__swipe-box-desc-black"
+                            >Forever!</span
+                          >
+                        </p>
+                        <a href="" class="main__swipe-box-btn">купить</a>
+                      </div>
+                    </div>
+                    <div class="main__swipe-box main__swipe-box-scn">
+                      <div class="main__swipe-box-imgs">
+                        <img
+                          src="src/images/swiper/swipeImg.png"
+                          alt="Swipe Image"
+                          class="main__swipe-box-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main__swipe-block">
+                    <div class="main__swipe-box">
+                      <div class="main__swipe-box-text">
+                        <div class="main__swipe-box-partners">
+                          <img
+                            src="./src/images/swiper/partners.png"
+                            alt="Our Partners"
+                            class="main__swipe-box-partners-logo"
+                          />
+                        </div>
+                        <p class="main__swipe-box-desc">
+                          Stan Smith, <br />
+                          <span class="main__swipe-box-desc-black"
+                            >Forever!</span
+                          >
+                        </p>
+                        <a href="" class="main__swipe-box-btn">купить</a>
+                      </div>
+                    </div>
+                    <div class="main__swipe-box main__swipe-box-scn">
+                      <div class="main__swipe-box-imgs">
+                        <img
+                          src="src/images/swiper/swipeImg.png"
+                          alt="Swipe Image"
+                          class="main__swipe-box-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main__swipe-block">
+                    <div class="main__swipe-box">
+                      <div class="main__swipe-box-text">
+                        <div class="main__swipe-box-partners">
+                          <img
+                            src="./src/images/swiper/partners.png"
+                            alt="Our Partners"
+                            class="main__swipe-box-partners-logo"
+                          />
+                        </div>
+                        <p class="main__swipe-box-desc">
+                          Stan Smith, <br />
+                          <span class="main__swipe-box-desc-black"
+                            >Forever!</span
+                          >
+                        </p>
+                        <a href="" class="main__swipe-box-btn">купить</a>
+                      </div>
+                    </div>
+                    <div class="main__swipe-box main__swipe-box-scn">
+                      <div class="main__swipe-box-imgs">
+                        <img
+                          src="src/images/swiper/swipeImg.png"
+                          alt="Swipe Image"
+                          class="main__swipe-box-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper__icon-next">
+                <span class="span__svg">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 0.999999L6 6L1 11" stroke="#C8C8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+              </div>
+              <div class="swiper__icon-prev">
+                <span class="span__svg"
+                  ><svg
+                    width="7"
+                    height="12"
+                    viewBox="0 0 7 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 0.999999L6 6L1 11"
+                      stroke="#C8C8C8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg
+                ></span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__assort">
+          <div class="container">
+            <div class="main__assort-topContent">
+              <h2 class="main__assort-title">Все кроссовки</h2>
+            <!-- filter -->
+            <div class="shoesFilter" >
+              <!-- Price -->
+              Price
+              <select class="main__assort-select-price">
+                <option value="" >Default</option>
+                <option value="asc" >Asc</option>
+                <option value="desc" >Desc</option>
+              </select>
+              <!-- Gender -->
+              Gender
+              <select class="main__assort-select-gender">
+                <option value="" >Default</option>
+                <option value="men" >men</option>
+                <option value="women" >women</option>
+              </select>
+              <!-- Brand -->
+              Brand
+              <select class="main__assort-select-brand">
+                <option value="" >Default</option>
+                <option value="Nike" >Nike</option>
+                <option value="Adidas" >Adidas</option>
+                <option value="Jordan" >Jordan</option>
+              </select>
+              <!-- Category -->
+              Category
+              <select class="main__assort-select-category">
+                <option value="" >Default</option>
+                <option value="Street" >Street</option>
+                <option value="Running" >Running</option>
+                <option value="Training" >Training</option>
+              </select>
+            </div>
+            <!-- filter -->
+              <div class="main__assort-form">
+                <span class="main__assort-form-icon"
+                  ><svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.25 15.25L11.8855 11.8795L15.25 15.25ZM13.75 7.375C13.75 9.06576 13.0784 10.6873 11.8828 11.8828C10.6873 13.0784 9.06576 13.75 7.375 13.75C5.68424 13.75 4.06274 13.0784 2.86719 11.8828C1.67165 10.6873 1 9.06576 1 7.375C1 5.68424 1.67165 4.06274 2.86719 2.86719C4.06274 1.67165 5.68424 1 7.375 1C9.06576 1 10.6873 1.67165 11.8828 2.86719C13.0784 4.06274 13.75 5.68424 13.75 7.375V7.375Z"
+                      stroke="#E4E4E4"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    /></svg
+                ></span>
+                <input
+                  type="search"
+                  placeholder="Поиск..."
+                  class="main__assort-form-input"
+                />
+              </div>
+            </div>
+            <div class="main__assort-mainContent">
+              <!-- ------------------------------------------------------------------------------------------------- -->
+              <!-- ---------------------------------------------shoes----------------------------------------------- -->
+              <!-- ------------------------------------------------------------------------------------------------- -->
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/js/swiper.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
+    <!-- <script type="module" src=./src/js/favorite.js></script>
+    <script type="module" src=./src/js/basket.js></script>
+    <script type="module" src=./src/js/viewContent.js></script> -->
+  </body>
+</html>

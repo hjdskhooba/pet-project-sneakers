@@ -1,0 +1,39 @@
+.basketNone__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 240px 0;
+  &-none {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 280px;
+    &-text{
+      text-align: center;
+    }
+    &-title {
+      margin-top: 24px;
+      text-align: center;
+      @include text($int, normal, 600, 24px, 0, black);
+    }
+
+    &-desc {
+      text-align: center;
+      margin: 11px 0 41px;
+      @include text($int, normal, 400, 16px, 24px, black);
+    }
+
+    &-link {
+      padding: 17px 40px 19px;
+      background-color: #9DD458;
+      border-radius: 18px;
+      @include text($int, normal, 400, 16px, 0, white);
+
+      &-icon {
+        margin-right: 17px;
+
+      }
+    }
+  }
+}

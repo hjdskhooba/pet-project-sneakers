@@ -1,0 +1,87 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "gender": "men",
+      "category": "Street",
+      "title": "Nike airmax 270 (men)",
+      "brand": "Nike",
+      "price": 144,
+      "images": "https://m.media-amazon.com/images/I/41kdJzwNmDL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": 2,
+      "gender": "women",
+      "category": "Running",
+      "title": "Women's Nike AirMax 400",
+      "brand": "Nike",
+      "price": 287,
+      "images": "https://m.media-amazon.com/images/I/41-a9BXreaL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": 3,
+      "gender": "men",
+      "category": "Street",
+      "title": "Jordan Men's Street Shoes",
+      "brand": "Jordan",
+      "price": 214.41,
+      "images": "https://m.media-amazon.com/images/I/61DVe0iB0eL._AC_UX695_.jpg"
+    },
+    {
+      "id": 4,
+      "gender": "women",
+      "category": "Street",
+      "title": "Jordan Womens WMNS Air Jordan 1 MID SE DO6699 200",
+      "brand": "Jordan",
+      "price": 299.99,
+      "images": "https://m.media-amazon.com/images/I/71aTzGufq9L._AC_UY695_.jpg"
+    },
+    {
+      "id": 5,
+      "gender": "men",
+      "category": "Training",
+      "title": "adidas Originals Men's Forum Mid Sneaker",
+      "brand": "Adidas",
+      "price": 47.69,
+      "images": "https://m.media-amazon.com/images/I/712D5jA4RvS._AC_UX695_.jpg"
+    },
+    {
+      "id": 6,
+      "gender": "women",
+      "category": "Training",
+      "title": "adidas Women's Supernova Running Shoe",
+      "brand": "Adidas",
+      "price": 142.84,
+      "images": "https://m.media-amazon.com/images/I/712CC6aNJKL._AC_UX695_.jpg"
+    },
+    {
+      "gender": "men",
+      "category": "Running",
+      "title": "ASICS Gel-Kayano 14 shoes",
+      "brand": "Asics",
+      "price": 164.4,
+      "images": "https://m.media-amazon.com/images/I/81VoThKalZL._AC_SX695._SX._UX._SY._UY_.jpg",
+      "id": 7
+    },
+    {
+      "gender": "women",
+      "category": "Street",
+      "title": "Nike Air Max 270 Se Mens Style : Dc3991",
+      "brand": "Nike",
+      "price": 390.44,
+      "images": "https://m.media-amazon.com/images/I/61r5QP4Op5L._AC_UX695_.jpg",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "skrrbambam@gmail.com"
+    },
+    {
+      "email": "emailexample@gmail.com",
+      "password": "$2a$10$O2PvlVNMj/eSALLUh24CWOKKCXueoWPY37XtcxdnTRg9H0Lo71tzO",
+      "id": 2
+    }
+  ]
+}

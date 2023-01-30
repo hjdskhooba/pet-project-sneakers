@@ -1,0 +1,16 @@
+{
+  "name": "sneakers06f",
+  "version": "1.0.0",
+  "description": "Baki version (sneakers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server-auth --watch db.json --port 8080"
+  },
+  "author": "Baigeldy",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "json-server-auth": "^2.1.0"
+  }
+}

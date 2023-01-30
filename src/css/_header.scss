@@ -1,0 +1,71 @@
+.header {
+  padding: 43px 0 45px;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    display: flex;
+    &-img {
+      width: 40px;
+      height: 40px;
+    }
+    &-text {
+      margin-left: 16px;
+    }
+    &-title {
+      &-link {
+        @include text($int, normal, 700px, 20px, 0, #000000);
+        text-transform: uppercase;
+      }
+    }
+    &-subtitle {
+      @include text($int, normal, 400, 14px, 0, #9d9d9d);
+    }
+  }
+  &__links {
+    display: flex;
+    position: relative;
+    &-user {
+      @include text($int, normal, 600, 15px, 0, #5c5c5c);
+      & a {
+        color: #5c5c5c;
+      }
+      &-logo {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      &-menu {
+        display: none;
+        background-color: #fff;
+        border: 1px solid #bdbdbd;
+        padding: 10px 15px;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        border-radius: 8px;
+        & li {
+          cursor: pointer;
+        }
+      }
+      &:hover .header__links-user-menu {
+        display: block;
+      }
+    }
+    &-basket {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      @include text($int, normal, 600, 14px, 0, #5c5c5c);
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    &-favorites {
+      margin: 0 30px;
+    }
+  }
+  border-bottom: 1px solid #eaeaea;
+}
